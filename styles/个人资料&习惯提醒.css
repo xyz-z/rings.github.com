@@ -1,0 +1,193 @@
+
+     #nav-dibu{
+      background: white;
+    }
+    .nav-dibu{
+      display: flex;
+      justify-content: space-between;
+       font-size: 3rem;
+      background: white;
+      padding:0rem;
+
+    }
+    .icon {
+            width: 40px;
+            height: 40px;
+            vertical-align: 0em;
+
+            overflow: hidden;
+            line-height: 46px;
+        }
+        @media(min-width: 62em) {
+            .fixdibu {
+                display: none;
+            }
+        }
+        .fixdibu {
+            background-color: white;
+            height: 46px;
+        }
+        .div5 {
+            width: 19.9%;
+            float: left;
+        }
+        #icon-tianjia path {
+            fill: #fade62;
+        }
+        #icon-faxian path {
+
+        }
+        #icon-fenxianglicaichengjiu path {
+             fill: #209cdd;
+        }
+        #icon-tubiaozhizuomoban path {
+
+        }
+        #icon-wo path {
+
+        }
+        .icon-tianjia {
+            width: 40px;
+            height: 40px;
+        }
+        .icon-fenxianglicaichengjiu {
+            width: 40px;
+            height: 40px;
+        }
+        .icon-tubiaozhizuomoban {
+            width: 40px;
+            height: 40px;
+        }
+        .icon-fenxianglicaichengjiu {
+            width: 40px;
+            height: 40px;
+        }
+        .icon-wo{
+            width: 40px;
+            height: 40px;
+        }
+
+          a{
+      color:black;
+    }
+    .navbar a:focus, .navbar a:hover{
+      color:white;
+    }
+    #button-left{
+      float: left;
+      margin-left: 1rem;
+    }
+    .navbar-brand{
+      margin-left: 6rem;
+
+    }
+    .navbar-default .navbar-nav>li>a:focus {
+    color: white;
+}
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+      background-color: #2aa094;
+    }
+    .navbar-default .navbar-toggle {
+      border-color: white;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: white;
+    }
+    .navbar-default .navbar-brand {
+      color: white;
+    }
+    .navbar-default .navbar-nav>li>a {
+      color: white;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: white;}
+    .navbar{
+      background-color:#2AA094;
+    }
+      html{
+        font-size:62.5%;
+      }
+
+      .icon {
+         height: 1em;
+         vertical-align: -0.15em;
+         fill: currentColor;
+         overflow: hidden;
+      }
+      .svg_1{
+        font-size: 8rem;
+        color: gray;
+      }
+      body{
+        background-color: #eee;
+        margin-bottom:6rem;
+      }
+      .row {
+         background-color:white;
+         padding-left: 1.5rem;
+         margin-bottom: 0.2rem;
+      }
+      .navbar{
+      background-color: #2aa094;
+        margin-bottom: 0.1rem;
+      }
+      #sexlabel{
+        margin-top:0rem;
+      }
+      .control-label{
+        line-height: 1.5rem;
+        height: 3.4rem;
+        padding-top: 1.1rem;
+        padding-right: 0rem;
+        margin-top: 1.625rem;
+      }
+      .col-xs-8{
+        padding-left: 0rem;
+        margin-top: 1.625rem;
+      }
+      .choosebtn{
+        text-align: center;
+      }
+
+                 /*媒体查询*/
+        /*<=320px*/
+      @media screen and (max-width: 320px) {
+
+        html{
+          font-size:50%;
+        }
+         .navbar-brand {
+            margin-left: 4rem;
+        }
+      }
+        @media  screen and (min-width: 400px) {
+         .navbar-brand {
+              margin-left: 7.3rem;
+          }
+
+        }
+        /*600px ~960px*/
+      @media screen and (min-width: 600px){
+        html{
+               font-size:100%;
+        }
+        .area{
+          height: 35rem;
+        }
+      }
+      @media screen and (min-width: 960px){
+         html{
+               font-size:120%;
+        }
+        .area{
+          height: 45rem;
+        }
+      }
+      @media (min-width: 768px){
+        .form-horizontal .control-label {
+        padding-top: 7px;
+        margin-bottom: 0;
+
+        text-align: center;
+      }
+      }

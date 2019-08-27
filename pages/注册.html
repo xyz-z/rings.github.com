@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Rings">
+    <meta name="author" content="第五组">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="icon" href="../Rings.png">
+    <title>注册</title>
+    <!-- Bootstrap 样式表 -->
+    <link href="../cpnts/bootstrap4.0.0/css/bootstrap.css" rel="stylesheet">
+    <!-- 当前页面用到的自定义样式表 -->
+    <link href="../styles/登录&注册.css" rel="stylesheet">
+    <script src="../cpnts/vue-2.5.16/vue.min-2.5.16.js"></script>
+</head>
+<body>
+    <div class="text-center">
+        <form class="form-signin">
+            <div class="text-center i1">
+                <img class="img" src="../Rings.png" alt="Rings图标" />
+            </div>
+            <div class="text-center i2">
+                <img class="img" src="../Rings.png" alt="Rings图标" />
+            </div>
+            <div>
+            <label for="phoneNumber" class="sr-only">手机号</label>
+            <input type="tel" v-model="phoneNumber" id="phoneNumber" class="form-control btn00"  placeholder="请输入手机号" required autofocus />
+            </div>
+            <br>
+            <div>
+            <label for="mima" class="sr-only">手机号</label>
+            <input type="password" v-model="mima" id="mima" class="form-control btn00"  placeholder="请输入密码" required autofocus />
+            </div>
+            <br>
+            
+
+            <div class="input-group mb-3">
+                <input type="text" v-model="validateCode" class="form-control btn00" id="validateCode" placeholder="请输入手机验证码" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <input class="btn btn-light btn-outline-secondary btn0" type="button"  id="send" value="发送验证码"  onclick="settime(this)"/>
+                </div>
+            </div>
+
+            <div v-if="hasError" class="alert alert-danger" role="alert">
+                {{ errorMessage }}
+            </div>
+
+            
+                <button class="btn btn-lg btn-block btn01" type="button" id="loginbtn" v-on:click="login">立即注册</button><br>
+                <a href="登录.html"style="color: #000; text-decoration: none;"><center>已有账号？立即登录</center></a>
+            <div class="zi">————&nbsp;&nbsp;使用第三方登录&nbsp;&nbsp;————</div>
+            <p>&nbsp;</p>
+            <div>
+                <a href="QQ.html">
+                    <span class="circle text-center cir1">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-qq"></use>
+                        </svg>
+                    </span>
+                </a>
+                <a href="WEIXIN.html">
+                    <span class="circle text-center cir2">
+                        <svg class="icon" aria-hidden="true" >
+                            <use xlink:href="#icon-weixin"></use>
+                        </svg>
+                    </span>
+                </a>
+                <a href="WEIBO.html">
+                    <span class="circle text-center cir3">
+                        <svg class="icon text-white" aria-hidden="true" >
+                            <use xlink:href="#icon-weibo"></use>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+            <br><br>
+            
+                <div class="checkbox mar20">
+                    <label>
+                        <input type="checkbox" value="1">
+                        <span class="zi">查看并同意用户协议</span>
+                    </label>
+                </div>
+                <span class="mt-5 mb-3 text-muted"><span class="zi">&copy; 2019 电子商务系项目制第五组</span></span>
+            
+        </form>
+    </div>
+    <script src="../cpnts/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../cpnts/bootstrap4.0.0/js/bootstrap.min.js"></script>
+    <script src="../utils/qwest.min.js"></script>
+    <script src="../scripts/login.js"></script>
+    <script src="../fonts/icons/font_783350_3kbws5kmv3r/iconfont.js"></script>
+</body>
+</html>

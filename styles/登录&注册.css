@@ -1,0 +1,128 @@
+html,
+body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom:30px;
+    height: 100%;
+}
+.selector-for-some-widget {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+@media(min-width: 1024px)  {
+    body {
+        background-color: white;
+    }
+    .btn01{
+        background-color:#9acc99;
+        color: white;
+    }
+    .btn0{
+        background-color:#9acc99;
+        color: white;
+    }
+    .i2{
+        display: none;
+    }
+}
+@media(max-width: 1024px)  {
+    body {
+        background-color: #9acc99;
+    }
+    .btn01{
+        background-color: white;
+    }
+    .btn0{
+        background-color: white;
+        color: black;
+    }
+    .zi{
+        color: white;
+    }
+    .btn-outline-secondary.disabled, .btn-outline-secondary:disabled{
+        background-color: white;
+    }
+    .i1{
+        display: none;
+    }
+}
+hr{
+    size:50px;
+    width: 100px;
+    color:#000000;
+}
+.circle{
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    border:none;
+    float: left;
+}
+.icon {
+    width: 30px; height: 30px;
+    vertical-align: -0.15em;
+    overflow: hidden;
+    margin-top: 3px;
+}
+btn {
+    color: white;
+}
+#icon-qq path {
+    fill: white;
+}
+#icon-weixin path {
+    fill: white;
+}
+#icon-weibo path {
+    fill: white;
+}
+.btn0{
+    border-color:  #2aa094;
+}
+.btn00{
+    border-color:#2aa094;
+}
+.btn01{
+    border-color:  #2aa094;
+}
+.cir1{
+    background-color: #1798dc;
+    float: left;
+}
+.cir2{
+    background-color: #9bd71d;
+    margin-left: 30%;
+}
+.cir3{
+    background-color: #eb192d;
+    float: right;
+}
+.mar20{
+    margin-top: 20px;
+}
+.btn-outline-secondary.disabled, .btn-outline-secondary:disabled{
+    color:black ;
+    background-color: #e1f5f1;
+    border-color:  #2aa094;
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+.imgmar{
+    margin-top: -100px;
+}
+
+
+
+
+

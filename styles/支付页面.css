@@ -1,0 +1,141 @@
+body {
+    background-color: #f2f2f2;
+    padding-bottom: 62px;
+    padding-top: 54px;
+}
+
+footer h6 {
+    font-size: 0.8rem;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+.i_tips {
+    height: 30px;
+    margin-left: 20px;
+    color: #f60;
+    font-size: 14px;
+    line-height: 30px
+}
+
+.i_box {
+    margin: 10px 20px;
+    font-size: 14px;
+    float: right
+}
+
+.i_box * {
+    vertical-align: middle
+}
+
+.i_box a {
+    padding: 0px 2px;
+    background-color: #e9e9e9;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #585858;
+    line-height: 20px
+}
+
+.i_box a:hover {
+    color: #000
+}
+
+.i_box button {
+    width: 15px;
+}
+
+.i_box input {
+    width: 20px;
+    height: 22px;
+    margin: 0 1px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 16px
+}
+
+/* 加减运算 cssend*/
+
+.input-group {
+    color: firebrick;
+}
+
+.name {
+    font: 16px normal;
+    color: #A0522D;
+}
+
+.details {
+    margin-top: -15px;
+    font: 12px normal;
+    color: grey;
+}
+
+.body {
+    padding-bottom: 300px;
+}
+
+/*.carousel-item img{
+  width：100%;
+             }*/
+.row div {
+    margin-top: 10px;
+}
+
+.imgcontent img {
+    width: 100%;
+}
+
+.shuliang {
+    font: 14px normal;
+    color: grey;
+    margin-top: -10px
+}
+
+.price {
+    margin-top: 0px;
+
+    color: #FF7F00;
+    font: 20px normal;
+}
+
+.number {
+    color: white;
+    font: 18px normal;
+    text-align: center;
+    background-color: #515151;
+}
+
+#menu {
+    font: 18px nbold;
+
+}
+
+.shopcar {
+    position: fixed;
+    right: 2%;
+    bottom: 9%;
+}
+#tupian{
+    float:left;
+}
+
+#juzhong{
+    margin: 0px 35% 0px 30%;
+}
+#kaozuo{
+    margin: 50px 35% 0px 13%
+}
+#kaozuo1{
+    margin: 0px 0px 0px 10%
+
+}
+#doublebai{
+    margin: 0 13% 0 12%;
+    /*float: left;*/
+    display: inline;
+   }

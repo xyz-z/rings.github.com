@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="stopwatch-mode" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta content="width=device-width, initial-scale=1,maximum-scale=1" name="viewport">
+<meta content="yes" name="mobile-web-app-capable">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<title>计时器</title>
+
+<link href="../assets/materialize/css/materialize.min.css" rel="stylesheet" type="text/css">
+<link href="../styles/时钟.css" rel="stylesheet" type="text/css">
+<link href="../assets/jonthornton-jquery-timepicker/jquery.timepicker.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<div class="wrapper">
+	<div style="width: 30px;height: 30px;margin: 40px">
+		<a href="今日习惯.html">
+			<svg style="width: 30px;height: 30px;">
+				<use xlink:href="#icon-close" ></use>
+			</svg>
+		</a>
+	</div>
+
+	<div class="switch-clocks z-depth-1" style="margin-top: 60px">
+		<a class="alarm waves-effect">闹钟</a>
+		<a class="stopwatch waves-effect">正计时</a>
+		<a class="timer waves-effect">倒计时</a>
+	</div>
+
+	<div class="app">
+
+		<div class="container alarm hidden">
+
+
+			<div class="clock z-depth-1 inactive">
+				<span>取消设置</span>
+				<div class="overlay waves-effect"></div>
+			</div>
+
+			<form>
+
+			<div class="control input-field">
+				<input class="validate" id="alarm-input" type="text">
+				<label for="alarm-input">设置时间</label>
+			</div>
+
+			<div class="control switch">
+				<label>
+					关闭
+					<input disabled id="alarm-btn" type="checkbox">
+					<span class="lever"></span>
+					开启
+				</label>
+			</div>
+
+			<div class="control checkbox">
+				<input id="alarm-sounds" type="checkbox" />
+				<label for="alarm-sounds">声音</label>
+			</div>
+
+		</form>
+		</div>
+
+		<div class="container stopwatch">
+			<div class="clock inactive z-depth-1">
+				<span>0:00:00.0</span>
+				<div class="overlay waves-effect"></div>
+			</div>
+
+			<form>
+				<a class="waves-effect waves-teal btn-flat" id="stopwatch-btn-start">开始</a>
+				<a class="waves-effect waves-teal btn-flat" id="stopwatch-btn-pause">暂停</a>
+				<a class="waves-effect waves-teal btn-flat" id="stopwatch-btn-reset">重置</a>
+			</form>
+		</div>
+
+		<div class="container timer hidden">
+			<div class="clock inactive z-depth-1 waves-effect">0:00</div>
+			<form>
+			<div class="control input-field">
+				<input id="timer-input" type="number">
+				<label for="timer-input">分钟</label>
+			</div>
+
+			<a class="timer-btn start waves-effect"><i class="mdi-av-play-arrow"></i></a>
+			<a class="timer-btn pause waves-effect"><i class="mdi-av-pause"></i></a>
+			<a class="timer-btn reset waves-effect"><i class="mdi-av-replay"></i></a>
+
+			<div class="control checkbox">
+				<input id="timer-sounds" type="checkbox" />
+				<label for="timer-sounds">声音</label>
+			</div>
+
+		</form>
+		</div>
+
+
+	</div>
+
+	<div class="modal" id="times-up-modal">
+		<div class="modal-content">
+			<h3>时间到了!</h3>
+		</div>
+		<div class="modal-footer">
+			<a class="dismiss-alarm-sounds modal-action waves-effect waves-red btn-flat" href="#!">关闭闹钟</a>
+		</div>
+	</div>
+
+</div>
+
+<script src="../assets/js/jquery-1.8.3.min.js"></script>
+<script src="../assets/materialize/js/materialize.min.js"></script>
+<script src="../assets/jonthornton-jquery-timepicker/jquery.timepicker.min.js"></script>
+<script src="../assets/js/hammer.js"></script>
+<script src="../assets/js/script.js"></script>
+<script src="../assets/js/alarm.js"></script>
+<script src="../assets/js/stopwatch.js"></script>
+<script src="../assets/js/timer.js"></script>
+<script src="../fonts/icons/font_1302471_i0nayvznbf9\iconfont.js" type="text/javascript"></script>
+</body>
+</html>

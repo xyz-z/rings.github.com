@@ -1,0 +1,119 @@
+body{
+    background-color:#f2f2f2;
+    height: 100%;
+}
+  #tianjia{
+           position: absolute;
+           right: 0;
+           z-index: 10000;
+           top: 15%;
+           font-color:white;
+        }
+#icon-tianjia path{
+        fill: white;
+       }
+.icon {
+    width: 40px;
+    height:40px ;
+    vertical-align: 0em;
+    fill: currentColor;
+    overflow: hidden;
+    line-height: 46px;
+}
+.row1{
+    background-color: #9ACC99;
+    height: 50px;
+}
+
+#icon-tianjia path {
+    fill: #fade62;
+}
+.icon-tianjia{
+    width: 40px;
+    height: 40px;
+}
+.icon-faxian{
+    width: 40px;
+    height: 40px;
+}
+
+.icon-wo{
+    width: 40px;
+    height: 40px;
+}
+.row2{
+    margin-top: 5px;
+}
+.tab1{
+    width: 50%;
+}
+
+
+@media(min-width: 62em){
+    .fixdibu{
+        display: none;
+    }
+    .phonetop{
+        display: none;
+    }
+}
+.fixdibu{
+    background-color: white;
+    height: 46px;
+}
+.div5{
+    width: 33.2%;
+    float: left;
+}
+.neirong{
+    float: left;
+}
+.row2-1 {
+    background-color: #aad1b0;
+    border-radius: 10px;
+}
+.zis{
+    font-size: 0.1rem;
+}
+
+.rowm{
+    margin-top: 20px;
+}
+.rowp{
+    padding: 4px;
+}
+
+
+.zi{
+            line-height: 56px;
+            z-index: 10000;
+            margin-left:auto;
+            margin-right: auto;
+        }
+        .nav0 li a:hover {
+            background: #56ab66;
+        }
+        .nav0 li a:active {
+            background:#56ab66;
+        }
+        .li0{
+            padding-right: 0px;
+            padding-left: 2px;
+        }
+        .ul0{
+            border: none;
+        }
+
+        @media(min-width: 62em){
+            .fixdibu{
+                display: none;
+            }
+            .phonetop{
+                display: none;
+            }
+        }
+        @media (max-width: 62em) {
+            .nav0{
+                margin-top: -64px;
+            }
+        }

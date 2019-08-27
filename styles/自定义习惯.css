@@ -1,0 +1,40 @@
+.card-body1 {
+    height: 190px;
+    display: flex;
+    margin: 72px 2px 30px 2px;
+    background-color: #e8ecef;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.row .tubiao{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin:5px 15px;
+    justify-content: center;
+    align-items: center;
+}
+.zi-1{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.card-body2 {
+    display: flex;
+    margin: 20px 5px;
+
+}
+.zi-2{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+}
+.beijing{
+margin: 5px;
+    background-color: #e8ecef;
+    border-radius: 10px;
+
+}
+

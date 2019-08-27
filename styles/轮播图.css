@@ -1,0 +1,19 @@
+
+html{
+			background-color:#9ACC99;
+		}
+
+		.item{
+
+			width: 100%;
+			height: 100%;
+		}
+		.item img{
+			width: 100%;
+			height: 100%;
+		}
+		#tiaoguo{
+    		position: absolute;
+    		top: 5%;
+    		right: 5%;
+    	}

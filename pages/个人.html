@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="雾课堂">
+    <meta name="author" content="第五组">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="icon" href="../favicon.ico">
+    <title>我的星球</title>
+    <link href="../cpnts/bootstrap4.0.0/css/bootstrap.css" rel="stylesheet">
+    <link href="../styles/导航.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> -->
+       <link rel="stylesheet" type="text/css" href="../styles/个人1.css">
+    <script type="text/javascript" src="../js/demo.js"></script>
+</head>
+
+<body>
+<div class="container-fluid" style="padding-bottom: 60px">
+    <div class="row row1 fixed-top" >
+        <h5 class="text-white text-center zi phonetop">我的星球</h5>
+        <div class="col-12">
+            <!--“更多”导航栏-->
+            <nav class="navbar navbar-expand-lg navbar-dark nav0" style="background-color: #9ACC99;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#">Rings</a>
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="dropdown">
+                            <a class="nav-link dropdown-toggle active" href="02faxianziwo.html" id="1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                星球乐园
+                            </a>
+                            <ul class="dropdown-menu ul0" aria-labelledby="1" style="background-color: #9ACC99;">
+                                <li><a class="dropdown-item text-white li0" href="个人.html">我的星球</a></li>
+                                <li><a class="dropdown-item text-white li0" href="广场.html">附近星球</a></li>
+                                <li><a class="dropdown-item text-white li0" href="动态编辑.html">习惯简记</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="nav-link dropdown-toggle active" href="03guanliziwo.html" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                我的习惯
+                            </a>
+                            <ul class="dropdown-menu ul0" aria-labelledby="2" style="background-color: #9ACC99;">
+                                <li><a class="dropdown-item text-white li0" href="今日习惯.html">今日习惯</a></li>
+                                <li><a class="dropdown-item text-white li0" href="全部习惯.html">全部习惯</a></li>
+                                <li><a class="dropdown-item text-white li0" href="时钟.html">我的时钟</a></li>
+                                <li><a class="dropdown-item text-white li0" href="自定义习惯.html">自定义习惯</a></li>
+                            </ul>
+
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="01wode.html">我的</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="col-xs-1 col-md-2"></div>
+    </div>
+
+    <div>
+        <div style="margin-bottom: 60px"></div>
+            
+
+                <div class=" text-center inform" style="max-width:1200px;margin:0 auto;justify-content:center">
+                    <img src="../images/头像.jpeg" >
+                    <h4 style="font-weight: bold;">Rings</h4>
+
+                    <div class="row" style="margin:0 auto ; justify-content: center">
+                        
+                                <div class="col-xs-2 juli">
+                                    <div class="row tubiao" style="background-color:red">
+                                        <div>111</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 "><span class="zi-1">关注</span></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-2 juli">
+                                    <div class="row tubiao" style="background-color:blue">
+                                        <div>111</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 "><span class="zi-1">粉丝</span></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-2 juli">
+                                    <div class="row tubiao" style="background-color:yellow">
+                                        <div>111</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 "><span class="zi-1">简记</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+
+
+                <div class="my_edit">
+                <div class="row" id="edit_form" style="max-width:1200px;margin:0 auto;justify-content:center">
+                    <span class="pull-left" style="margin:15px;">编写新鲜事</span>
+
+                          <div class="form-group">
+                               <div class="col-sm-12">
+
+                                    <div contentEditable="true" id="content"></div>
+                                </div>
+                                <div class="col-sm-12" style="margin-top: 100px;">
+                                    <span class="emoji">表情</span>
+
+                                    <span class="pic">图片   </span>
+                                    <span>
+                                        <input type="file" name=""  class="select_Img" style="display: none" >
+                                        <img class="preview" src="">
+                                    </span>
+
+
+                                    <div class="myEmoji" >
+                                        <ul id="myTab" class="nav nav-tabs">
+                                            <li class="active">
+                                                <a href="#set" data-toggle="tab">
+                                                   预设
+                                                </a>
+                                            </li>
+                                            <li><a href="#hot" data-toggle="tab">热门</a></li>
+
+                                        </ul>
+                                        <div id="myTabContent" class="tab-content">
+                                            <div class="tab-pane fade in active" id="set">
+                                                <div class="emoji_1"></div>
+
+                                            </div>
+                                            <div class="tab-pane fade" id="hot">
+                                              <div class="emoji_2"></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <span> <input type="file" id="selectImg" value=""></input> </span>
+
+                                    <button type="button" id="send" class="btn btn-default pull-right disabled">发布</button>
+                                </div>
+                          </div>
+                    </form>
+                </div>
+
+<!-- 
+                <div class="part_hot" style="max-width:1200px;margin:0 auto;justify-content:center;background-color: #f2f2f2">
+                    <div class="col-sm-12">
+                        <span class="pull-left" style="padding: 10px;font-size:16px;font-weight: bold;">热门标签</span>
+                        <span class="pull-right" style="padding: 10px;">换标签</span>
+                    </div>
+                    <hr style="margin: 0;padding: 0;width: 100%">
+
+                    <div class="col-sm-12 item_hot" >
+                        <span class="pull-left">#晨跑#</span>
+                        <span class="pull-right item_num">3.6万</span>
+                    </div>
+
+                    <div class="col-sm-12 item_hot" >
+                        <span class="pull-left">#背单词#</span>
+                        <span class="pull-right item_num">2.6万</span>
+                    </div>
+
+                    <div class="col-sm-12 item_hot" >
+                        <span class="pull-left">#早起喝水#</span>
+                        <span class="pull-right item_num">1万</span>
+                    </div>
+
+                    <div class="col-sm-12 item_hot" >
+                        <span class="pull-left">#休息一下#</span>
+                        <span class="pull-right item_num">0.5万</span>
+                    </div>
+
+
+                    <hr style="margin: 0;padding: 0;width: 100%">
+
+                    <div class="col-sm-12 text-center" style="padding: 10px;background-color:#FFF "><a href="#">查看更多</a></div>
+
+                </div>
+
+            </div>
+
+
+
+            
+
+                <div class="row item_msg" style="max-width:1200px;margin:0 auto;justify-content:center">
+                    <div class="col-sm-12 col-xs-12 message"  >
+                         <img src="../images/头像.jpeg" class="col-sm-2 col-xs-2" style="border-radius: 50%">
+                         <div class="col-sm-10 col-xs-10">
+                            <span style="font-weight: bold;">Rings</span>
+                            <br>
+                            <small class="date" style="color:#999">1分钟前</small>
+                            <div class="msg_content">happy day!
+                             <img class="mypic" src="../images/img/bg_1.jpg" >
+                             </div>
+
+                             <div id="container">
+
+
+                                 <div class="feed" id="feed1" style="display: flex">
+                                     <div class="heart " id="like1" rel="like" ></div>
+                                     <div class="likeCount" id="likeCount1">14</div>
+                                 </div>
+
+
+                             </div>
+                             <div id="list">
+
+                                 <div class="box clearfix">
+                                     <div class="content">
+                             <div class="comment-list">
+                                 <div class="comment-box clearfix" user="self">
+                                     <img class="myhead" src="../images/头像.jpeg" style="float: left"/>
+                                     <div class="comment-content">
+                                         <p class="comment-text"><span class="user">我：</span>写的太好了。</p>
+                                         <p class="comment-time">
+                                             2019-07-19 14:36
+                                             <a href="javascript:;" class="comment-praise" total="1" my="0" style="display: inline-block">1 赞</a>
+                                             <a href="javascript:;" class="comment-operate">删除</a>
+                                         </p>
+                                     </div>
+                                 </div>
+                             </div>
+                             <div class="text-box">
+                                 <textarea class="comment" autocomplete="off">评论…</textarea>
+                                 <button class="btn " style="margin-top: 10px">回 复</button>
+                                 <span class="word" style="margin-top: 10px"><span class="length">0</span>/140</span>
+                             </div>
+                                     </div>
+                                 </div>
+                             </div>
+
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div> -->
+    <script src="../js/jquery-3.1.0.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+
+             $("#content").keyup(function(){
+
+                //判断输入的字符串长度
+                var content_len = $("#content").text().replace(/\s/g,"").length;
+
+                $(".tips").text(content_len);
+
+
+                if(content_len==0){
+                    // alert(content);
+                    $(".tips").text("");
+                    $("#send").addClass("disabled");
+                    return false;
+                }else{
+                    $("#send").removeClass("disabled");
+                }
+             });
+
+
+                $(".pic").click(function(){
+
+                    $(".select_Img").click();
+
+
+                })
+
+            //  function confirm(){
+
+            //      var r= new FileReader();
+                        // f=$(".select_Img").files[0];
+                        // r.readAsDataURL(f);
+                        // r.onload=function(e) {
+                        //  $(".preview").src=this.result;
+
+                        // };
+            //  }
+
+            //点击按钮发送内容
+             $("#send").click(function(){
+
+                // var myDate = new Date();
+
+              //   var min = myDate.getMinutes();
+
+              //   var time = min-(min-1);
+
+              //   //alert(time);
+
+                var content=$("#content").html();
+
+                //判断选择的是否是图片格式
+                var imgPath = $(".imgPath").text();
+                var start  = imgPath.lastIndexOf(".");
+                var postfix = imgPath.substring(start,imgPath.length).toUpperCase();
+
+
+                if(imgPath!=""){
+
+                    if(postfix!=".PNG"&&postfix!=".JPG"&&postfix!=".GIF"&&postfix!=".JPEG"){
+                            alert("图片格式需为png,gif,jpeg,jpg格式");
+                    }else{
+                        $(".item_msg").append("<div class='col-sm-12 col-xs-12 message' > <img src='../images/头像.jpeg' class='col-sm-2 col-xs-2' style='border-radius: 50%'><div class='col-sm-10 col-xs-10'><span style='font-weight: bold;''>Rings</span> <br><small class='date' style='color:#999'>刚刚</small><div class='msg_content'>"+content+"<img class='mypic' onerror='this.src='img/bg_1.jpg' src='file:///"+imgPath+"' ></div></div></div><div class=\"feed\" id=\"feed1\" style=\"display: flex;justify-content: right\">\n" +
+                            "\t\t\t\t\t\t\t\t\t <div class=\"heart \" id=\"like1\" rel=\"like\" ></div>\n" +
+                            "\t\t\t\t\t\t\t\t\t <div class=\"likeCount\" id=\"likeCount1\">1</div>\n" +
+                            "\t\t\t\t\t\t\t\t </div>");
+                    }
+                }else{
+                     $(".item_msg").append("<div class='col-sm-12 col-xs-12 message' > <img src='../images/头像.jpeg' class='col-sm-2 col-xs-2' style='border-radius: 50%'><div class='col-sm-10 col-xs-10'><span style='font-weight: bold;''>Rings</span> <br><small class='date' style='color:#999'>刚刚</small><div class='msg_content'>"+content+"</div><div class=\"feed\" id=\"feed2\" style=\"display: flex;justify-content: right\">\n" +
+                         "\t\t\t\t\t\t\t\t\t <div class=\"heart \" id=\"like2\" rel=\"like\" ></div>\n" +
+                         "\t\t\t\t\t\t\t\t\t <div class=\"likeCount\" id=\"likeCount2\">14</div>\n" +
+                         "\t\t\t\t\t\t\t\t </div></div></div>");
+                }
+
+             });
+
+              //添加表情包1
+              for (var i = 1; i < 60; i++) {
+
+                    $(".emoji_1").append("<img src='../images/img/f"+i+".png' style='width:35px;height:35px' >");
+                }
+                //添加表情包2
+                for (var i = 1; i < 61; i++) {
+
+                    $(".emoji_2").append("<img src='../images/img/h"+i+".png' style='width:35px;height:35px' >");
+                }
+
+
+             $(".emoji").click(function(){
+
+                $(".myEmoji").show();
+
+                //点击空白处隐藏弹出层
+                $(document).click(function (e) {
+
+                    if (!$("#edit_form").is(e.target) && $("#edit_form").has(e.target).length === 0) {
+
+                        $(".myEmoji").hide();
+                    }
+                });
+
+
+             });
+
+             //将表情添加到输入框
+               $(".myEmoji img").each(function(){
+                    $(this).click(function(){
+                        var url = $(this)[0].src;
+
+                        $('#content').append("<img src='"+url+"' style='width:25px;height:25px' >");
+
+                        $("#send").removeClass("disabled");
+                    })
+               })
+
+                //放大或缩小预览图片
+                $(".mypic").click(function(){
+                    var oWidth=$(this).width(); //取得图片的实际宽度
+                    var oHeight=$(this).height(); //取得图片的实际高度
+
+                    if($(this).height()!=200){
+                        $(this).height(200);
+                    }else{
+                        $(this).height(oHeight + 200/oWidth*oHeight);
+
+                    }
+
+                })
+
+        })
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            $('body').on("click",'.heart',function(){
+
+                var A=$(this).attr("id");
+                var B=A.split("like");
+                var messageID=B[1];
+                var C=parseInt($("#likeCount"+messageID).html());
+                $(this).css("background-position","")
+                var D=$(this).attr("rel");
+
+                if(D === 'like') {
+                    $("#likeCount"+messageID).html(C+1);
+                    $(this).addClass("heartAnimation").attr("rel","unlike");
+                }
+                else{
+                    $("#likeCount"+messageID).html(C-1);
+                    $(this).removeClass("heartAnimation").attr("rel","like");
+                    $(this).css("background-position","left");
+                }
+            });
+
+        });
+    </script>
+
+    <div class="row">
+        <div class="fixed-bottom  fixdibu hidden-sm-up">
+
+            <span class="text-center div5">
+                                   <a href="02faxianziwo.html">
+                                <svg class="icon icon-faxian" aria-hidden="true">
+                                    <use xlink:href="#icon-faxian"></use>
+                                </svg>
+            </a>
+            </span>
+
+            <span class="text-center div5">
+                                <a href="003tianjiajilu.html">
+                                    <svg class="icon icon-tianjia" aria-hidden="true">
+                                        <use xlink:href="#icon-huangguan"></use>
+                                    </svg>
+                                </a>
+                            </span>
+
+            <span class="text-center div5">
+                                <a href="HomePage.html">
+                                   <svg class="icon icon-wo" aria-hidden="true">
+                                    <use xlink:href="#icon-wode"></use>
+                                </svg>
+                                </a>
+                            </span>
+        </div>
+    </div>
+</div>
+
+</div>
+<script type="text/javascript" src="../cpnts/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../cpnts/bootstrap4.0.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../fonts/icons/font_1302471_i0nayvznbf9\iconfont.js"></script>
+<script type="text/javascript" src="../scripts/more.js"></script>
+</body>
+</html>
+
